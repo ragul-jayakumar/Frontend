@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.navbar{
+    background-color: #fd6569;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+}
+.box{
+    width: 25%;
+    background-color: black;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+    margin:20px;
+    display:inline-block
+}
+.box h2{
+    color:#fd6569;
+}
+.box button{
+    background-color: #fd6569;
+    color:black;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 5px;
+    border:none;
+}
+.one{
+    margin:20px;
+    font-size: medium ;
+}
+.two{
+    background-color: #fd6569;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 100%;
+    border:none;
+    position: fixed;
+    right:30px;
+    bottom:30px;
+    font-size: medium ;
+}
+.shadowscreen{
+    opacity:0.8;
+    background-color: black;
+    z-index:1;
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    display:none;
+}
+.power{
+    background-color: #fd6569;
+    position: absolute;
+    width:40%;
+    top: 20%;
+    left:30%;
+    border-radius: 10px;
+    padding:40px;
+    z-index: 2;
+    display:none;
+}
+.power input{
+    width:100%;
+    background: transparent;
+    border:none;
+    padding: 5px;
+    border-bottom: solid black 2px;
+    margin:5px;
+    font-size: 20px;
+}
+.power textarea{
+    width:100%;
+    background: transparent;
+    padding: 5px;
+    border: solid black 2px;
+    margin:5px;
+    font-size: 20px;
+}
+.power input::placeholder{
+    color:black;
+}
+.power textarea::placeholder{
+    color:black;
+}
+.power button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:none;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+}
+.power input:focus{
+    outline: none;
+}
+.power textarea:focus{
+    outline: none;
+}
